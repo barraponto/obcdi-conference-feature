@@ -15,8 +15,8 @@ function rt_conference_ctools_plugin_api() {
  */
 function rt_conference_node_info() {
   $items = array(
-    'Conference' => array(
-      'name' => t('rt_conference'),
+    'rt_conference' => array(
+      'name' => t('Conference'),
       'module' => 'features',
       'description' => '',
       'has_title' => '1',
