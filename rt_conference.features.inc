@@ -22,9 +22,10 @@ function rt_conference_node_info() {
       'has_title' => '1',
       'title_label' => t('Title'),
       'has_body' => '1',
-      'body_label' => t('Body'),
+      'body_label' => t('Brief description'),
       'min_word_count' => '0',
-      'help' => '',
+      'help' => t('Set up a scheduled conference, with live video streaming and (optionally) live chat coverage. 
+Don\'t forget to promote the content to front page to start the countdown.'),
     ),
   );
   return $items;
